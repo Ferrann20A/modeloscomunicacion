@@ -1,8 +1,8 @@
 <div>
-    <h2>
+    <h2 style="color: cadetblue;">
         {{comic.titulo}}, {{comic.nombre}}
     </h2>
     <img src="{{comic.imagen}}" alt="img_comic" width="250" height="350"/><br/>
-    <button (click)="seleccionarComicFavoritoHijo()" id="btn-fav">Seleccionar Favorito</button>
+    <button (click)="marcarFavorito()" id="btn-fav">Seleccionar Favorito</button>
     <button (click)="eliminarComicHijo()" id="btn-delete">Eliminar Comic</button>
 </div>

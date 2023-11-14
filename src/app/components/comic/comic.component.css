@@ -5,6 +5,7 @@
     border-radius: 3px;
     cursor: pointer;
     padding: 0.2rem;
+    margin-right: .5rem;
 }
 
 #btn-delete{

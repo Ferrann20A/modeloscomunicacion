@@ -47,7 +47,7 @@ export class LibreriaComponent {
       ),
       new Comic(
         "Guardianes de la Galaxia",
-        "https://cdn.normacomics.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/g/u/guardianes_galaxia_guadianes_infinito.jpg",
+        "https://i.blogs.es/cebdf3/screenshot_1859/original.webp",
         "Yo soy Groot"
       ),
       new Comic(

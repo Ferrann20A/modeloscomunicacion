@@ -22,7 +22,10 @@
     </div>
     <div id="comics">
         <div id="comic" *ngFor="let c of comics">
-            <app-comic [comic]="c" (eliminarComic)="eliminarComic($event)" (seleccionarComicFavorito)="seleccionarComicFavorito($event)"></app-comic>
+            <app-comic [comic]="c" 
+            (eliminarComic)="eliminarComic($event)" 
+            (seleccionarComicFavorito)="seleccionarComicFavorito($event)"
+            ></app-comic>
         </div>
     </div>
 </div>

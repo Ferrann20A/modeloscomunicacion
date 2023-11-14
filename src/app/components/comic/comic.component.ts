@@ -11,7 +11,7 @@ export class ComicComponent {
   @Output() seleccionarComicFavorito:EventEmitter<any> = new EventEmitter();
   @Output() eliminarComic:EventEmitter<any> = new EventEmitter();
 
-  seleccionarComicFavoritoHijo():void{
+  marcarFavorito():void{
     this.seleccionarComicFavorito.emit(this.comic);
   }
 
