@@ -1,0 +1,10 @@
+<h1>Listado de Productos</h1>
+<div class="container">
+    <div class="product-card" *ngFor="let p of productos">
+        <h2>
+            Nombre: {{p.nombre}}, Precio: {{p.precio}}
+        </h2>
+        <img src="{{p.imagen}}" width="250" height="250"/><br/>
+        <a [routerLink]="['/detalleproducto', p.nombre, p.imagen, p.precio]" id="btn-details">Detalles</a>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li{
+    list-style-type: none;
+    padding: 1rem;
+}

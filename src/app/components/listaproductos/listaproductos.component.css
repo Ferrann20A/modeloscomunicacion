@@ -1,0 +1,6 @@
+.container{
+    display: flex;
+}
+.product-card{
+    margin: 1rem;
+}
