@@ -4,6 +4,8 @@ import { ListaproductosComponent } from "./components/listaproductos/listaproduc
 import { DetalleproductoComponent } from "./components/detalleproducto/detalleproducto.component";
 import { HomeComponent } from "./components/home/home.component";
 import { PadrecochesComponent } from "./components/padrecoches/padrecoches.component";
+import { PadredeportesComponent } from "./components/padredeportes/padredeportes.component";
+import { LibreriaComponent } from "./components/libreria/libreria.component";
 
 const appRoutes: Routes = [
     {
@@ -17,6 +19,12 @@ const appRoutes: Routes = [
     },
     {
         path:"padrecoches", component: PadrecochesComponent
+    },
+    {
+        path:"padredeportes", component: PadredeportesComponent
+    },
+    {
+        path:"libreria", component: LibreriaComponent
     }
 ]
 

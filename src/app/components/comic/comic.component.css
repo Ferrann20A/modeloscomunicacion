@@ -1,0 +1,18 @@
+#btn-fav{
+    background-color: yellow;
+    border: 1px solid gray;
+    margin-top: 0.5rem;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 0.2rem;
+}
+
+#btn-delete{
+    background-color: red;
+    color: white;
+    border: 1px solid gray;
+    margin-top: 0.5rem;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 0.2rem;
+}

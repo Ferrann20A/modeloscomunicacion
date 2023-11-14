@@ -9,6 +9,11 @@ import { DetalleproductoComponent } from './components/detalleproducto/detallepr
 import {routing, appRoutingProviders} from '../app/app.routing';
 import { HijococheComponent } from './components/hijocoche/hijocoche.component';
 import { PadrecochesComponent } from './components/padrecoches/padrecoches.component';
+import { PadredeportesComponent } from './components/padredeportes/padredeportes.component';
+import { HijodeporteComponent } from './components/hijodeporte/hijodeporte.component';
+import { LibreriaComponent } from './components/libreria/libreria.component';
+import { ComicComponent } from './components/comic/comic.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,11 +23,16 @@ import { PadrecochesComponent } from './components/padrecoches/padrecoches.compo
     MenuComponent,
     DetalleproductoComponent,
     HijococheComponent,
-    PadrecochesComponent
+    PadrecochesComponent,
+    PadredeportesComponent,
+    HijodeporteComponent,
+    LibreriaComponent,
+    ComicComponent
   ],
   imports: [
     BrowserModule,
-    routing
+    routing,
+    FormsModule
   ],
   providers: [appRoutingProviders],
   bootstrap: [AppComponent]

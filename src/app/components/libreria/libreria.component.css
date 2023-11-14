@@ -1,0 +1,22 @@
+#comics{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#comic{
+    margin: 5rem;
+}
+
+#favoritoSeleccionado{
+    background-color: yellow;
+}
+
+#btn-insertar{
+    background-color: lightgreen;
+    border: 1px solid gray;
+    margin-top: 0.5rem;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 0.2rem;
+}
+
