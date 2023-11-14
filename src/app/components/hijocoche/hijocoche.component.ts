@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Coche } from 'src/app/models/Coche';
 
 @Component({
@@ -7,10 +7,10 @@ import { Coche } from 'src/app/models/Coche';
   styleUrls: ['./hijocoche.component.css']
 })
 export class HijococheComponent {
-  public coche:Coche;
+  @Input() coche!:Coche;
   public mensaje!:string;
   constructor(){
-    this.coche = new Coche("Pontiac","Firebird",250,20,false);
+    //Cuando recibimos elementos input no podemos utilizarlos dentro del constructor
   }
   //Tendremos un metodo que devolvera TRUE o FALSE si el coche esta apagado o encendido
   comprobarEstado():boolean{

@@ -1,1 +1,9 @@
-<p>padrecoches works!</p>
+<div>
+    <h1>
+        PADRE COCHES
+    </h1>
+    <div *ngFor="let c of coches">
+        <app-hijocoche [coche]="c"></app-hijocoche>
+        <hr/>
+    </div>
+</div>
