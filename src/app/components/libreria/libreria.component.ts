@@ -14,6 +14,13 @@ export class LibreriaComponent {
   @ViewChild("imagenComic") imagenRef!:ElementRef;
   @ViewChild("nombreComic") nombreRef!:ElementRef;
 
+  modificarComic(event:number):void{
+    let titulo = this.tituloRef.nativeElement.value;
+    let imagen = this.imagenRef.nativeElement.value;
+    let nombre = this.nombreRef.nativeElement.value;
+    this.comics[event] = new Comic(titulo,imagen,nombre);
+  }
+
   seleccionarComicFavorito(event:any):void{
     this.comicFavorito = event;
   }
